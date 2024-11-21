@@ -1,0 +1,24 @@
+site_name: Portfolio
+site_author: Krzysztof Kleszcz
+site_description: >-
+  Portfolio moich projektów. 
+
+repo_name: krzysztofkleszcz50/datascience_portfolio
+repo_url: https://github.com/krzysztofkleszcz50/datascience_portfolio/tree/master
+
+
+theme:
+  name: material
+  palette:
+    primary: amber
+
+nav:
+- Home Page: index.md
+- Main projects:
+  - "App Data Playground": data_playground/index.md
+  - "App to find friends": survey_analysis/index.md
+  - "Tablo Project": tablo/index.md
+  - "Titanic": titanic/index.md
+  - "Iris": iris/index.md
+  
+
